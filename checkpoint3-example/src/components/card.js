@@ -7,7 +7,8 @@ export function Card(props) {
   return (
     <div id="card">
       {/* TODO: Add the header and info elements under this comment. Use (new Date()).toISOString() as the timestamp attribute of info*/}
-
+      <Header name="Pikachu" hp="5000"/>
+      <Info time={(new Date()).toISOString()}/>
     </div>
   );
 }
